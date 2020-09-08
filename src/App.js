@@ -12,7 +12,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navigation />
-
       <Route path="/projects" exact component={Projects} />
       <Route path="/" exact={true} component={Home} />
       <Route path="/profile" component={Profile} />

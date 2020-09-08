@@ -1,23 +1,16 @@
 import React from "react";
-//import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-// import { projects } from "../data/projectContents.json";
-
-// console.log(projects);
-// console.log(projects.map((project) => project.title));
+import "./projectCard.css";
 
 function ProjectCard({ id, title, skills, imgpath }) {
   return (
     <Link to={{ pathname: `/projects/${id}` }}>
-      <li key={id} style={{ backgroundColor: "yellow", margin: "20px" }}>
-        <img
-          style={{ height: "200px", width: "200px" }}
-          src={imgpath}
-          alt={title}
-        />
-        <div>{title}</div>
-        <div>{skills}</div>
-      </li>
+      <div key={id} className="projectcard_container">
+        <div className="projectcard_image_container">
+          <img className="projectcard_image" src={imgpath} alt={title} />
+        </div>
+        <h4 className="projectcard_title">{title}</h4>
+      </div>
     </Link>
   );
 }

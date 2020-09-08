@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../data/projectContents.json";
-import { render } from "@testing-library/react";
+import "./detail.css";
 
 class Detail extends React.Component {
   render() {
@@ -10,19 +10,20 @@ class Detail extends React.Component {
     );
     return (
       <>
-        <section className="info_short">
+        <p className="detail_info">
           <img
-            style={{ width: "200px", height: "200px" }}
+            className="detail_image"
             src={projectdetail.imgpath}
             alt={projectdetail.title}
           />
-          <li>
-            <h3>title: {projectdetail.title}</h3>
-            <h5>skills: {projectdetail.skills}</h5>
-            <h5>description: {projectdetail.description}</h5>
+          <li className="detail_text">
+            <h1>Title: {projectdetail.title}</h1>
+            <h1>Skills: {projectdetail.skills}</h1>
+            <h1>Description </h1>
+            <p>{projectdetail.description}</p>
           </li>
-        </section>
-        <section></section>
+        </p>
+        <p></p>
       </>
     );
   }

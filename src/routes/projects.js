@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "../component/projectCard";
 import { projects } from "../data/projectContents.json";
+import "./projects.css";
 
 class Projects extends React.Component {
   render() {
@@ -9,6 +10,7 @@ class Projects extends React.Component {
         <div className="projects">
           {projects.map((project) => (
             <ProjectCard
+              key={project.id}
               id={project.id}
               title={project.title}
               skills={project.skills}
