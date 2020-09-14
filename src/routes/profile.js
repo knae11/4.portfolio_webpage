@@ -5,8 +5,8 @@ function Profile() {
     <div className="profile__container">
       <p> 김나은 </p>
       <p> KIM NA EUN </p>
-      <p> 010 2016 6084 </p>
       <p> knae11@naver.com </p>
+      <p> I am preparing sth for this page. </p>
     </div>
   );
 }

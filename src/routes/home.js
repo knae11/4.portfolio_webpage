@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "./projects";
+import Projects, { Skills } from "./projects";
 import "./homestyle.css";
 class Home extends React.Component {
   render() {
@@ -7,8 +7,11 @@ class Home extends React.Component {
       <>
         <p className="main">Port. Nauni</p>
         <section>
-          <h4 className="home_title">Projects</h4>
+          <h2 className="home_title">Projects</h2>
           <Projects />
+          <h2 className="home_title">Skills</h2>
+          <Skills />
+          <h2 className="home_footer">Made by Naeun @2020</h2>
         </section>
       </>
     );

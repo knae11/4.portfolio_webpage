@@ -23,4 +23,21 @@ class Projects extends React.Component {
   }
 }
 
+export class Skills extends React.Component {
+  render() {
+    return (
+      <div className="skills">
+        <h1>PROGRAMMING</h1>
+        <p>
+          HTML, CSS, JavaScript, TypeScript, React, Nodejs, MySQL, Pug, Python3
+        </p>
+        <h1>ARCHITECTURE</h1>
+        <p>AUTO CAD, SKETCH UP, PHOTOSHOP</p>
+        <h1>LANGUAGE</h1>
+        <p>KOREAN, ENGLISH, basic CHINESE</p>
+      </div>
+    );
+  }
+}
+
 export default Projects;

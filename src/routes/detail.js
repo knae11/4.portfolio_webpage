@@ -10,20 +10,37 @@ class Detail extends React.Component {
     );
     return (
       <>
-        <p className="detail_info">
-          <img
-            className="detail_image"
-            src={projectdetail.imgpath}
-            alt={projectdetail.title}
-          />
-          <li className="detail_text">
-            <h1>Title: {projectdetail.title}</h1>
-            <h1>Skills: {projectdetail.skills}</h1>
-            <h1>Description </h1>
-            <p>{projectdetail.description}</p>
-          </li>
-        </p>
-        <p></p>
+        <div className="detail">
+          <div className="detail_info">
+            <div className="detail_img_container">
+              <img
+                className="detail_img"
+                src={projectdetail.imgpath}
+                alt={projectdetail.title}
+              />
+            </div>
+            <ul className="detail_text">
+              <li>{projectdetail.title}</li>
+              <li>Used skill : {projectdetail.skills}</li>
+              <li>{projectdetail.description}</li>
+              <div className="detail_a">
+                <a href={projectdetail.project_url}>Project</a>
+                <a href={projectdetail.github}>Github CODE</a>
+              </div>
+            </ul>
+          </div>
+
+          <div className="detail_contents">
+            <div className="video_container">
+              <iframe
+                src={projectdetail.video}
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </>
     );
   }

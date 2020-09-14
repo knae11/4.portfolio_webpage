@@ -2,58 +2,53 @@
   "projects": [
     {
       "id": "1",
-      "title": "canvas",
+      "title": "CANVAS",
       "skills": ["JS"],
-      "imgpath": "https://images.unsplash.com/photo-1593935824766-0d9e22d1e56a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is vanilla javascript project. YOU CAN DRAW ON CANVAS AND SAVE IT!",
-      "state": "ok"
+      "imgpath": "https://postfiles.pstatic.net/MjAyMDA5MTRfMjky/MDAxNjAwMDY3MjkyMTk0.8biE7qv6oM3698uTQbAtfMlQckMP1SByhBcTQ6jF_Iog.x7rZuIiNW9M0foNSibO4VEOa5ZhzDeWxiexYXHNcpgwg.PNG.knae11/image.png?type=w966",
+      "project_url": "https://knae11.github.io/portfolio-01.canvas/",
+      "video": "https://www.youtube.com/embed/t6CNJaxONLc",
+      "description": "You can draw something and save it.",
+      "github": "https://github.com/knae11/portfolio-01.canvas"
     },
     {
       "id": "2",
-      "title": "shooting star",
+      "title": "SHOOTING STAR",
       "skills": ["JS"],
-      "imgpath": "https://images.unsplash.com/photo-1599498448014-81d90414c50a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=633&q=80",
-      "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is vanilla javascript project. TAKE ALL STARS IN UNIVERSE."
+      "imgpath": "https://postfiles.pstatic.net/MjAyMDA5MTRfMjI5/MDAxNjAwMDY3MzcyNjI0.jXnBfAIuZxKN4wBf5QpbByg2k0jaFAIUg1JboaYF-Xsg.uFUnfN5rfib5bhFHuZaGfOdk1GKa0aeJjsc2aPudCrIg.PNG.knae11/image.png?type=w966",
+      "project_url": "https://knae11.github.io/porfolio-2.shootingstar/",
+      "video": "https://www.youtube.com/embed/Srd-FOoY-LY",
+      "description": "This is vanilla javascript project. TAKE ALL STARS IN UNIVERSE.",
+      "github": "https://github.com/knae11/porfolio-2.shootingstar"
     },
     {
       "id": "3",
-      "title": "quiz",
+      "title": "QUIZ",
       "skills": ["TS + ", "REACT"],
-      "imgpath": "https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
-      "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is TYPESCRIPT AND REACT project. HOW MANY QUIZS COULD YOU CLEAR?"
+      "imgpath": "https://postfiles.pstatic.net/MjAyMDA5MTRfMyAg/MDAxNjAwMDY3NDA4NzQw.bADdnO0CdTPcH75bllP-_CTJbDQsEmkhdNDOTH_dLKYg.EddCIGH_abyhXc-WHARuL-e6-VQwi9bD7qHsokDgBPMg.PNG.knae11/image.png?type=w966",
+      "project_url": "https://knae11.github.io/porfolio-3.-Quiz/",
+      "video": "https://www.youtube.com/embed/0a4d5j5N8vg",
+      "description": "this is TYPESCRIPT AND REACT project. HOW MANY QUIZS COULD YOU CLEAR?",
+      "github": "https://github.com/knae11/porfolio-3.-Quiz"
     },
     {
       "id": "4",
-      "title": "portfolio",
+      "title": "PORTFOLIO",
       "skills": ["REACT"],
-      "imgpath": "https://images.unsplash.com/photo-1599456869788-3596655af5a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "imgpath": "https://postfiles.pstatic.net/MjAyMDA5MTRfMTM5/MDAxNjAwMDY4NDc2MjMy.cHUJuHWEIXctAHRtaB_svkFs5bIs-uZyZmFtCFn2eSIg.OzPfBmDwuRGPTgEmhLJMSR34sIL1pmlsyUJBdcFsSYMg.PNG.knae11/image.png?type=w966",
       "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is REACT MAKING SPA project. THIS IS THIS! SEE SOME PROJECTS OF MINE AND CONTACT ME."
+      "video": "https://www.youtube.com/embed/7izc-YZGF-M",
+      "description": "this is REACT MAKING SPA project. THIS IS THIS! SEE SOME PROJECTS OF MINE AND CONTACT ME.",
+      "github": "https://github.com/knae11/4.portfolio_webpage"
     },
     {
       "id": "5",
-      "title": "nodejs",
-      "skills": ["NODEJS"],
-      "imgpath": "https://images.unsplash.com/photo-1599451210895-9cce75d75d0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+      "title": "HOME COMMUNITY",
+      "skills": ["NODEJS + ", "MYSQL + ", "PUG"],
+      "imgpath": "https://postfiles.pstatic.net/MjAyMDA5MTRfMjM3/MDAxNjAwMDcxNTg0NzQ4.uyTBCO8LyxXjhk_Q0AlWISCE7I-LS6Yjwk9geNAI41Ug.Qq32_gFC7aQ6IrQDFsYVQ4eaWodu5NOmrzKpPAkucyYg.PNG.knae11/image.png?type=w966",
       "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is NODEJS MAKING CRUD project. SIMPLE CRUD PROJECT WITH NODEJS. YOU CAN MANAGE YOUR HABITS."
-    },
-    {
-      "id": "6",
-      "title": "booking",
-      "skills": ["NODEJS + ", "MYSQL"],
-      "imgpath": "https://images.unsplash.com/photo-1599416024757-71334210456b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      "project_url": "https://knae11.github.io/paintjs/",
-      "video": "video-youtube url",
-      "description": "this is NODEJS + MYSQL project. MAKE BOOKING CLEAR! THEN, DO AND SEE WHAT YOU WANT TO"
+      "video": "https://www.youtube.com/embed/nbIuNjOx7nU",
+      "description": "this is NODEJS + MYSQL project. MAKE BOOKING CLEAR! THEN, DO AND SEE WHAT YOU WANT TO",
+      "github": "https://github.com/knae11/nodejscrud_community"
     }
   ]
 }
