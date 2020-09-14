@@ -1,0 +1,33 @@
+.projectcard_container {
+  background-color: #f2ecde;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.projectcard_image_container {
+  border: 2px solid black;
+  position: relative;
+  margin: auto;
+  padding-top: 100%;
+  width: 90%;
+  overflow: hidden;
+}
+.projectcard_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projectcard_title {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}

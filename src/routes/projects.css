@@ -1,0 +1,10 @@
+.projects {
+  display: grid;
+  margin: 20px 0;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+.skills {
+  text-align: left;
+  margin-left: 30px;
+}
