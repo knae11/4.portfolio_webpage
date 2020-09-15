@@ -10,13 +10,13 @@ import Navigation from "./component/navigation";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/4.portfolio_webpage">
       <Navigation />
-      <Route path="/4.portfolio_webpage/projects" exact component={Projects} />
-      <Route path="/4.portfolio_webpage" exact={true} component={Home} />
-      <Route path="/4.portfolio_webpage/profile" component={Profile} />
-      <Route path="/4.portfolio_webpage/others" component={Others} />
-      <Route path="/4.portfolio_webpage/projects/:id" component={Detail} />
+      <Route path="/projects" exact component={Projects} />
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/profile" component={Profile} />
+      <Route path="/others" component={Others} />
+      <Route path="/projects/:id" component={Detail} />
     </BrowserRouter>
   );
 }

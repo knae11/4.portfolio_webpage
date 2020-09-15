@@ -24,8 +24,20 @@ class Detail extends React.Component {
               <li>USED TOOLS : {projectdetail.skills}</li>
               <li>DESCRIPTION :{projectdetail.description}</li>
               <div className="detail_a">
-                <a href={projectdetail.project_url}>Project</a>
-                <a href={projectdetail.github}>Github CODE</a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={projectdetail.project_url}
+                >
+                  Project
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={projectdetail.github}
+                >
+                  Github CODE
+                </a>
               </div>
             </ul>
           </div>

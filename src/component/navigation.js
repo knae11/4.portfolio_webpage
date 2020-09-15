@@ -12,12 +12,12 @@ export default function Navigation() {
   return (
     <div className="naviagation">
       <div className="logo">
-        <Link to="/4.portfolio_webpage/">Port.Nauni</Link>
+        <Link to="/">Port.Nauni</Link>
       </div>
       <div className="navs">
-        <Link to="/4.portfolio_webpage/projects">Projects</Link>
-        <Link to="/4.portfolio_webpage/profile">Profile</Link>
-        <Link to="/4.portfolio_webpage/others">Others</Link>
+        <Link to="/projects">Projects</Link>
+        <Link to="/profile">Profile</Link>
+        <Link to="/others">Others</Link>
       </div>
       <button onClick={toggleClick} className="toggleBtn hidden">
         <i className="fas fa-bars"></i>

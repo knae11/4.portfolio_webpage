@@ -4,10 +4,7 @@ import "./projectCard.css";
 
 function ProjectCard({ id, title, skills, imgpath }) {
   return (
-    <Link
-      className="link"
-      to={{ pathname: `/4.portfolio_webpage/projects/${id}` }}
-    >
+    <Link className="link" to={{ pathname: `/projects/${id}` }}>
       <div key={id} className="projectcard_container">
         <div className="projectcard_image_container">
           <img className="projectcard_image" src={imgpath} alt={title} />
