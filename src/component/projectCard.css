@@ -30,4 +30,13 @@
 
 .link {
   text-decoration: none;
+  margin: 10px;
+}
+
+@media screen and (max-width: 970px) {
+  .projectcard_title {
+    color: black;
+    font-size: 2rem;
+    margin: 10px;
+  }
 }

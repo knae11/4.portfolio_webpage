@@ -5,6 +5,7 @@
 .detail_info {
   display: flex;
   flex-direction: row;
+  padding: 40px 0;
   border-bottom: 1px solid lightgray;
 }
 .detail_img_container {
@@ -26,9 +27,9 @@
 .detail_text {
   flex: 1 65%;
   margin: 0;
-  margin-top: 30px;
   text-align: left;
-  list-style: none;
+  list-style: square;
+  color: #353430;
 }
 .detail_text > li {
   font-size: 1.5rem;
@@ -40,7 +41,7 @@
 }
 
 .detail_a {
-  margin-top: 70px;
+  margin-top: 20px;
 }
 .detail_a > a {
   padding: 10px;

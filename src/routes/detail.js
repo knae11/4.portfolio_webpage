@@ -12,17 +12,17 @@ class Detail extends React.Component {
       <>
         <div className="detail">
           <div className="detail_info">
-            <div className="detail_img_container">
+            {/* <div className="detail_img_container">
               <img
                 className="detail_img"
                 src={projectdetail.imgpath}
                 alt={projectdetail.title}
               />
-            </div>
+            </div> */}
             <ul className="detail_text">
-              <li>{projectdetail.title}</li>
-              <li>Used skill : {projectdetail.skills}</li>
-              <li>{projectdetail.description}</li>
+              <li>TITLE : {projectdetail.title}</li>
+              <li>USED TOOLS : {projectdetail.skills}</li>
+              <li>DESCRIPTION :{projectdetail.description}</li>
               <div className="detail_a">
                 <a href={projectdetail.project_url}>Project</a>
                 <a href={projectdetail.github}>Github CODE</a>
@@ -33,10 +33,12 @@ class Detail extends React.Component {
           <div className="detail_contents">
             <div className="video_container">
               <iframe
+                title={projectdetail.title}
+                key={projectdetail.id}
                 src={projectdetail.video}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
           </div>
