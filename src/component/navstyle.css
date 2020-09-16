@@ -24,6 +24,9 @@
   .hidden {
     display: block;
     color: black;
+    background-color: #f2ecde;
+    border: 0.5px solid gray;
+    border-radius: 5px;
   }
   .navs {
     display: none;

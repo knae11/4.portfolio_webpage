@@ -1,13 +1,16 @@
 import React from "react";
 
 function Profile() {
+  const imgStyle = {
+    width: "100%",
+    padding: "20px",
+  };
   return (
-    <div className="profile__container">
-      <p> 김나은 </p>
-      <p> KIM NA EUN </p>
-      <p> knae11@naver.com </p>
-      <p> I am preparing sth for this page. </p>
-    </div>
+    <>
+      <div className="profile__container">
+        <img src="./images/profile.jpg" alt="profile" style={imgStyle} />
+      </div>
+    </>
   );
 }
 
