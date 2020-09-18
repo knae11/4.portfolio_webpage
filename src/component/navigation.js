@@ -5,7 +5,6 @@ import "./navstyle.css";
 export default function Navigation() {
   function toggleClick(e) {
     const navs = document.querySelector(".navs");
-    e.preventDefault();
     navs.classList.toggle("active");
   }
 
@@ -15,9 +14,15 @@ export default function Navigation() {
         <Link to="/">Port.Nauni</Link>
       </div>
       <div className="navs">
-        <Link to="/projects">Projects</Link>
-        <Link to="/profile">Profile</Link>
-        <Link to="/others">Others</Link>
+        <Link className="an" to="/projects">
+          Projects
+        </Link>
+        <Link className="an" to="/profile">
+          Profile
+        </Link>
+        <Link className="an" to="/others">
+          Others
+        </Link>
       </div>
       <button onClick={toggleClick} className="toggleBtn hidden">
         <i className="fas fa-bars"></i>

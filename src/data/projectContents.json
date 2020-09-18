@@ -32,7 +32,7 @@
     },
     {
       "id": "4",
-      "title": "PORTFOLIO",
+      "title": "Port. Nauni",
       "skills": ["REACT"],
       "imgpath": "./images/4.png",
       "project_url": "https://knae11.github.io/4.portfolio_webpage/",
@@ -45,10 +45,10 @@
       "title": "HOME COMMUNITY",
       "skills": ["NODEJS + ", "MYSQL + ", "PUG"],
       "imgpath": "./images/5.png",
-      "project_url": "https://github.com/knae11/nodejscrud_community",
+      "project_url": "https://github.com/knae11/porfolio-5.-nojejs_community",
       "video": "https://www.youtube.com/embed/nbIuNjOx7nU",
       "description": "This is NODEJS + MYSQL project with express and sequelize.\n For login, passport and bcrypt is used. Layout with Pug. (Sorry, it is not published)",
-      "github": "https://github.com/knae11/nodejscrud_community"
+      "github": "https://github.com/knae11/porfolio-5.-nojejs_community"
     }
   ]
 }
