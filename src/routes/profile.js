@@ -8,7 +8,9 @@ function Profile() {
   return (
     <>
       <div className="profile__container">
-        <img src="./images/profile.jpg" alt="profile" style={imgStyle} />
+        <span>
+          Hi, I am naeun, kim. Maybe something could be updated later :)
+        </span>
       </div>
     </>
   );

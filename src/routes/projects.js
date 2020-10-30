@@ -28,9 +28,8 @@ export class Skills extends React.Component {
     return (
       <div className="skills">
         <h1>PROGRAMMING</h1>
-        <p>
-          HTML, CSS, JavaScript, TypeScript, React, Nodejs, MySQL, Pug, Python3
-        </p>
+        <p>Experience of HTML, CSS, JS, React, Python3 and Java.</p>
+        <p>I am keep learning to be a good Developer.</p>
         <h1>ARCHITECTURE</h1>
         <p>AUTO CAD, SKETCH UP, PHOTOSHOP</p>
         <h1>LANGUAGE</h1>
